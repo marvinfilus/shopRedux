@@ -3,7 +3,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #000000;
+  background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
   min-height: 100vh;
   display: flex;
   flex-direction: row;
@@ -12,18 +13,6 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
 .div{
   border: 1px solid white;
