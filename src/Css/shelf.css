@@ -1,0 +1,36 @@
+.shelf-container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* border:1px solid green; */
+}
+.shoecard{
+  display: flex;
+  flex-direction: column;
+  border-bottom:1px solid black;
+  /* min-width: 30%; */
+  width: 300px;
+  height: 500px;
+  margin:10px;
+}
+
+.shoe-img{
+  display: flex;
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  overflow: hidden;
+}
+
+.shelf-ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  /* border:1px solid black; */
+  padding:10px;
+  /* min-width: 30%; */
+  width: 98%;
+  height: 100%;
+}

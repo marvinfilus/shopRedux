@@ -1,19 +1,43 @@
+html, body {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:0px;
+  margin:0px;
+  color: crimson;
+  font-size: 1.1rem;
+}
+
+li{
+    list-style-type: none;
+}
 .App {
+  min-width: 100vw;
+  min-height: 100vh;
   text-align: center;
 }
 
-.App-header {
-  background-color: #000000;
-  background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
-  min-height: 100vh;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  color: white;
+.backHome{
+  flex-direction: column;
+    text-align:center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
 }
 
+.container{
+  display: flex;
+  justify-content: center;
+  width:100vw;
+  height:100%;
+}
+.show{
+  display: flex;
+}
 
-.div{
-  border: 1px solid white;
+.hide{
+  display: none;
 }

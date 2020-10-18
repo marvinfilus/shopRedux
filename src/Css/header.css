@@ -1,0 +1,28 @@
+.div-header{
+  display: flex;
+  align-self: flex-start;
+  min-height: 10vh;
+  background-color:crimson;
+  width: 100vw;
+
+}
+.header-header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-height: 10vh;
+  min-width: 100vw;
+  border:1px solid black;
+}
+.header-nav{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  min-height: 10vh;
+  min-width: 100vw;
+  justify-content: space-around;
+  align-items: center;
+}
+.shoecard{
+  display: flex;
+}

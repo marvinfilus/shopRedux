@@ -3,11 +3,19 @@ import ReactDOM from 'react-dom';
 import './Css/index.css';
 import App from './Components/App';
 import * as serviceWorker from './serviceWorker';
+import { Provider } from 'react-redux';
+import Store from './store';
+import { Router } from "react-router";
+import { createBrowserHistory } from "history";
+
+
+const history = createBrowserHistory();
+const StoreInstance = Store();
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Provider store={StoreInstance}>
+      <App/>
+  </Provider>,
   document.getElementById('root')
 );
 

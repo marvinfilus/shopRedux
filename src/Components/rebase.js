@@ -15,4 +15,4 @@ var app = firebase.initializeApp({
   });
 
 var base = Rebase.createClass(app.database());
-export{ base , app };
+export { app, base } ;
